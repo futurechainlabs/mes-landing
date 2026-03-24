@@ -116,7 +116,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
     loadFromStorage(STORAGE_KEYS.theme, DEFAULT_THEME)
   );
   const [logoUrl, setLogoUrlState] = useState<string>(() =>
-    loadFromStorage(STORAGE_KEYS.logo, "/logo.png")
+    loadFromStorage(STORAGE_KEYS.logo, `${import.meta.env.BASE_URL}logo.png`)
   );
   const [images, setImagesState] = useState<Record<string, string>>(() =>
     loadFromStorage(STORAGE_KEYS.images, {})
@@ -166,7 +166,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
     localStorage.removeItem(STORAGE_KEYS.images);
     setAllContent(DEFAULT_CONTENT);
     setTheme(DEFAULT_THEME);
-    setLogoUrlState("/logo.png");
+    setLogoUrlState(`${import.meta.env.BASE_URL}logo.png`);
     setImagesState({});
     setLangState("tr");
     applyThemeToCSS(DEFAULT_THEME);
