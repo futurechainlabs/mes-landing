@@ -483,10 +483,10 @@ const MEGA_MENU_TR: MegaMenuContent = {
   sidebarDesc: "OnSuite, uretimin her katmaninda veri toplama, analiz ve optimizasyon saglayan moduler bir platformdur.",
   features: ["Real-time Monitoring", "Enterprise Security", "Hybrid Cloud Ready"],
   featureIcons: ["speed", "security", "cloud"],
-  linkText: "Tum Modulleri Incele",
+  linkText: "Tum Modülleri Incele",
   modules: [
     { name: "Connect", icon: "settings_input_component", desc: "Gelismis Connectivity Katmani ile her turlu donanimla kesintisiz iletisim kurun.", href: "#connect" },
-    { name: "Live", icon: "stream", desc: "Proses verilerinizi gercek zamanli izleyin, anlik raporlarla uretim sureclerinizi tam gorunurluge kavusturun.", href: "#live" },
+    { name: "Live", icon: "stream", desc: "Proses verilerinizi gerçek zamanlı izleyin, anlık raporlarla üretim süreçlerinizi tam görünürlüğe kavuşturun.", href: "#live" },
     { name: "Optima", icon: "analytics", desc: "OEE ve Uretim Analitigi ile verimlilik kayiplarinizi anlik olarak takip edin ve optimize edin.", href: "#optima" },
     { name: "Trace", icon: "location_on", desc: "Seri No Takip ve Izlenebilirlik ile hammaddeden son urune tum sureci seffaflastirin.", href: "#trace" },
     { name: "Forms", icon: "description", desc: "Kagitsiz Uretim ve Dijital Formlar ile tum kalite ve uretim verilerini dijitallestirin.", href: "#forms" },
@@ -546,10 +546,10 @@ const MEGA_MENU_RO: MegaMenuContent = {
 
 // ─── Connect Page Defaults ──────────────────────────────────────
 const CONNECT_TR: ConnectPageContent = {
-  badge: "OnSuite Connect",
+  badge: "OnSuıte Connect",
   headingLine1: "Tum Fabrikayi",
   headingHighlight: "Tek Bir Dilde",
-  headingLine3: "Konusturun",
+  headingLine3: "Konuşturun",
   description: "Endustriyel varliklarinizdan gelen karmasik verileri, standartlastirilmis ve eyleme donusturulebilir icgorulere donusturen yuksek performansli connectivity katmani.",
   ctaButton: "Hemen Baslayin",
   secondaryButton: "Teknik Dokumantasyon",
@@ -560,10 +560,10 @@ const CONNECT_TR: ConnectPageContent = {
     { icon: "precision_manufacturing", title: "Modbus & Profinet", desc: "Legacy cihazlardan modern PLC sistemlerine kadar genis donanim destegi ve entegrasyon." },
     { icon: "memory", title: "Edge Computing", desc: "Veriyi kaynaginda isleyin, gecikmeyi minimize edin ve bulut maliyetlerini optimize edin." },
   ],
-  archHeading: "Protokol Donusum Mimarisi",
+  archHeading: "Protokol Dönüşüm Mimarisi",
   archDesc: "Heterojen uretim ortamlarini tek bir standartta birlestirin. Karmasik haberlesme katmanlarini seffaf bir veri akisina donusturuyoruz.",
   archStatusLabel: "Sistem Durumu",
-  archStatusValue: "Veri Akisi Aktif - 14ms Gecikme",
+  archStatusValue: "Veri Akışı Aktif - 14ms Gecikme",
   archChannelsLabel: "Aktif Kanallar",
   archChannels: ["MTConnect", "EtherNet/IP", "CanOpen"],
   archInputNodes: [
@@ -577,17 +577,17 @@ const CONNECT_TR: ConnectPageContent = {
   ],
   stats: [
     { value: "99.9%", label: "Uptime Garantisi", desc: "Kritik uretim hatlarinda kesintisiz veri surekliligi saglar." },
-    { value: "<15ms", label: "Uctan Uca Gecikme", desc: "Gercek zamanli kontrol ve anlik mudahale kapasitesi." },
+    { value: "<15ms", label: "Uçtan Uca Gecikme", desc: "Gercek zamanli kontrol ve anlik mudahale kapasitesi." },
     { value: "100k+", label: "Tag / Saniye", desc: "Yuksek yogunluklu veri trafiginde ustun islem gucu." },
   ],
-  ctaSectionHeading: "Gelecegin Fabrikasina Bugun Baglanin",
-  ctaSectionDesc: "Karmasik protokolleri, uyumsuz cihazlari ve veri silolarini geride birakin. OnSuite Connect ile tanisin.",
+  ctaSectionHeading: "Geleceğin Fabrikasına Bugün Bağlanın",
+  ctaSectionDesc: "Karmasik protokolleri, uyumsuz cihazlari ve veri silolarini geride birakin. OnSuıte Connect ile tanisin.",
   ctaSectionButton1: "Ucretsiz Kesif Randevusu",
   ctaSectionButton2: "Tum Ozellikleri Gor",
 };
 
 const CONNECT_EN: ConnectPageContent = {
-  badge: "OnSuite Connect",
+  badge: "OnSuıte Connect",
   headingLine1: "Make Your Entire Factory",
   headingHighlight: "Speak One Language",
   headingLine3: "",
@@ -622,13 +622,13 @@ const CONNECT_EN: ConnectPageContent = {
     { value: "100k+", label: "Tags / Second", desc: "Superior processing power in high-density data traffic." },
   ],
   ctaSectionHeading: "Connect to the Factory of the Future Today",
-  ctaSectionDesc: "Leave behind complex protocols, incompatible devices, and data silos. Meet OnSuite Connect.",
+  ctaSectionDesc: "Leave behind complex protocols, incompatible devices, and data silos. Meet OnSuıte Connect.",
   ctaSectionButton1: "Free Discovery Meeting",
   ctaSectionButton2: "See All Features",
 };
 
 const CONNECT_RO: ConnectPageContent = {
-  badge: "OnSuite Connect",
+  badge: "OnSuıte Connect",
   headingLine1: "Faceti Intreaga Fabrica",
   headingHighlight: "Sa Vorbeasca O Singura Limba",
   headingLine3: "",
@@ -663,7 +663,7 @@ const CONNECT_RO: ConnectPageContent = {
     { value: "100k+", label: "Tag-uri / Secunda", desc: "Putere de procesare superioara in traficul de date de densitate mare." },
   ],
   ctaSectionHeading: "Conectati-va la Fabrica Viitorului Astazi",
-  ctaSectionDesc: "Lasati in urma protocoalele complexe, dispozitivele incompatibile si silozurile de date. Descoperiti OnSuite Connect.",
+  ctaSectionDesc: "Lasati in urma protocoalele complexe, dispozitivele incompatibile si silozurile de date. Descoperiti OnSuıte Connect.",
   ctaSectionButton1: "Intalnire Gratuita de Descoperire",
   ctaSectionButton2: "Vezi Toate Caracteristicile",
 };
@@ -671,26 +671,26 @@ const CONNECT_RO: ConnectPageContent = {
 // ─── Module Page Defaults ────────────────────────────────────────
 
 const LIVE_TR: ModulePageContent = {
-  badge: "OnSuite Live",
-  headingLine1: "Fabrikanizi",
-  headingHighlight: "Gercek Zamanli",
-  headingLine2: "Konusturun",
+  badge: "OnSuıte Live",
+  headingLine1: "Fabrikanızı",
+  headingHighlight: "Gerçek Zamanlı",
+  headingLine2: "Konuşturun",
   description: "Endustriyel IoT altyapisiniz uzerinden anlik proses verisi toplayin, gorsellestin ve raporlayin. Uretim sureclerinizi tam gorunurluge kavusturun.",
   ctaButton: "Hemen Baslayin",
   secondaryButton: "Teknik Dokumantasyon",
   heroIcon: "stream",
   features: [
-    { icon: "sensors", title: "Canli Telemetri", desc: "Sicaklik, basinc, titresim ve diger proses parametrelerini milisaniye hassasiyetinde izleyin." },
-    { icon: "notifications_active", title: "Akilli Uyari Sistemi", desc: "Esik deger asildiginda aninda bildirim alin, kritik durumlara proaktif mudahale edin." },
+    { icon: "sensors", title: "Canli Telemetri", desc: "Sıcaklık, basinc, titresim ve diger proses parametrelerini milisaniye hassasiyetinde izleyin." },
+    { icon: "notifications_active", title: "Akıllı Uyarı Sistemi", desc: "Esik deger asildiginda aninda bildirim alin, kritik durumlara proaktif mudahale edin." },
     { icon: "bar_chart", title: "Ozellestirilebilir Raporlama", desc: "Vardiya, hat ve makine bazli ozel raporlar olusturun, PDF ve Excel olarak paylasin." },
     { icon: "hub", title: "Sinirsiz Baglanti", desc: "OPC UA, MQTT, Modbus ve daha fazla protokolle her turlu cihazdan veri toplayin." },
   ],
-  showcaseHeading: "Anlik Telemetri Tablosu",
+  showcaseHeading: "Anlık Telemetri Tablosu",
   showcaseDesc: "Tum uretim hattinizdan gelen proses verilerini tek bir ekranda canli olarak izleyin. Anomalileri aninda tespit edin.",
   showcaseMetrics: [
-    { label: "Sicaklik", value: "45.7°C" },
-    { label: "Basinc", value: "3.7 bar" },
-    { label: "Agirlik", value: "2.3 kg" },
+    { label: "Sıcaklık", value: "45.7°C" },
+    { label: "Basınç", value: "3.7 bar" },
+    { label: "Ağırlık", value: "2.3 kg" },
     { label: "Devir", value: "1000 rpm" },
   ],
   stats: [
@@ -698,12 +698,12 @@ const LIVE_TR: ModulePageContent = {
     { value: "10M+", label: "Gunluk Veri Noktasi", desc: "Her gun milyonlarca olcum noktasi kaydedilir." },
     { value: "99.9%", label: "Veri Butunlugu", desc: "Kayipsiz veri toplama garantisi." },
   ],
-  ctaSectionHeading: "Uretim Verinizi Canli Izlemeye Baslayin",
-  ctaSectionDesc: "Karanlikta uretim yapmak yerine, her anin verisine sahip olun. OnSuite Live ile tanisin.",
+  ctaSectionHeading: "Üretim Verinizi Canlı İzlemeye Başlayın",
+  ctaSectionDesc: "Karanlikta uretim yapmak yerine, her anin verisine sahip olun. OnSuıte Live ile tanisin.",
   ctaSectionButton1: "Ucretsiz Demo Talep Et",
   ctaSectionButton2: "Tum Ozellikleri Gor",
   connectivityHeading: "Sinirsiz Baglanabilirlik",
-  connectivityDesc: "Mevcut altyapiniz ne olursa olsun, OnSuite Live tum endustriyel standartlarla yerel olarak konusur.",
+  connectivityDesc: "Mevcut altyapiniz ne olursa olsun, OnSuıte Live tum endustriyel standartlarla yerel olarak konusur.",
   protocols: [
     { icon: "hub", title: "OPC-UA", desc: "Modern fabrikalarin guvenli ve platformlar arasi veri degisim standardi." },
     { icon: "lan", title: "MQTT", desc: "IIoT icin optimize edilmis, dusuk bant genislikli mesajlasma protokolu." },
@@ -716,8 +716,8 @@ const LIVE_TR: ModulePageContent = {
     { icon: "forum", text: "Slack & Microsoft Teams Entegrasyonu" },
   ],
   notifications: [
-    { type: "error", label: "Akilli Uyari", time: "Simdi", text: "Konveyor-04: Motor sicakligi kritik seviyeye ulasti (85°C). Kapatma oneriliyor." },
-    { type: "success", label: "Gorev Tamamlandi", time: "10 dk once", text: "Batch #4492 uretimi basariyla tamamlandi ve kalite onayi aldi." },
+    { type: "error", label: "Akıllı Uyarı", time: "Şimdi", text: "Konveyor-04: Motor sicakligi kritik seviyeye ulasti (85°C). Kapatma oneriliyor." },
+    { type: "success", label: "Görev Tamamlandı", time: "10 dk once", text: "Batch #4492 uretimi basariyla tamamlandi ve kalite onayi aldi." },
     { type: "info", label: "Bilgi", time: "1 saat once", text: "Yeni firmware guncellemesi mevcut. Planlanan bakim penceresinde uygulanabilir." },
   ],
   widgetTypes: [
@@ -728,11 +728,11 @@ const LIVE_TR: ModulePageContent = {
   ],
   dashboardLabels: {
     liveLabel: "CANLI",
-    weeklyTrend: "Haftalik Trend",
+    weeklyTrend: "Haftalık Trend",
     weeklyRange: "Son 7 Gun",
     activeErrors: "Aktif Hatalar",
-    activeErrorsDetail: "2 kritik, 1 uyari",
-    totalOutput: "Toplam Uretim",
+    activeErrorsDetail: "2 kritik, 1 uyarı",
+    totalOutput: "Toplam Üretim",
     totalOutputValue: "14,202",
     totalOutputChange: "+12.4% gecen haftaya gore",
     addWidget: "Widget Ekle",
@@ -752,7 +752,7 @@ const LIVE_TR: ModulePageContent = {
 };
 
 const LIVE_EN: ModulePageContent = {
-  badge: "OnSuite Live",
+  badge: "OnSuıte Live",
   headingLine1: "Make Your Factory",
   headingHighlight: "Speak Real-Time",
   headingLine2: "",
@@ -780,11 +780,11 @@ const LIVE_EN: ModulePageContent = {
     { value: "99.9%", label: "Data Integrity", desc: "Lossless data collection guarantee." },
   ],
   ctaSectionHeading: "Start Monitoring Your Production Data Live",
-  ctaSectionDesc: "Instead of producing in the dark, own every moment's data. Meet OnSuite Live.",
+  ctaSectionDesc: "Instead of producing in the dark, own every moment's data. Meet OnSuıte Live.",
   ctaSectionButton1: "Request Free Demo",
   ctaSectionButton2: "See All Features",
   connectivityHeading: "Unlimited Connectivity",
-  connectivityDesc: "No matter your existing infrastructure, OnSuite Live natively speaks all industrial standards.",
+  connectivityDesc: "No matter your existing infrastructure, OnSuıte Live natively speaks all industrial standards.",
   protocols: [
     { icon: "hub", title: "OPC-UA", desc: "Secure and cross-platform data exchange standard for modern factories." },
     { icon: "lan", title: "MQTT", desc: "Low-bandwidth messaging protocol optimized for IIoT." },
@@ -833,7 +833,7 @@ const LIVE_EN: ModulePageContent = {
 };
 
 const LIVE_RO: ModulePageContent = {
-  badge: "OnSuite Live",
+  badge: "OnSuıte Live",
   headingLine1: "Faceti Fabrica Sa",
   headingHighlight: "Vorbeasca in Timp Real",
   headingLine2: "",
@@ -865,7 +865,7 @@ const LIVE_RO: ModulePageContent = {
   ctaSectionButton1: "Solicita Demo Gratuit",
   ctaSectionButton2: "Vezi Toate Caracteristicile",
   connectivityHeading: "Conectivitate Nelimitata",
-  connectivityDesc: "Indiferent de infrastructura existenta, OnSuite Live vorbeste nativ toate standardele industriale.",
+  connectivityDesc: "Indiferent de infrastructura existenta, OnSuıte Live vorbeste nativ toate standardele industriale.",
   protocols: [
     { icon: "hub", title: "OPC-UA", desc: "Standard sigur de schimb de date cross-platform pentru fabrici moderne." },
     { icon: "lan", title: "MQTT", desc: "Protocol de mesagerie cu latime de banda redusa optimizat pentru IIoT." },
@@ -914,25 +914,25 @@ const LIVE_RO: ModulePageContent = {
 };
 
 const OPTIMA_TR: ModulePageContent = {
-  badge: "OnSuite Optima",
-  headingLine1: "Uretimde Mukemmellik,",
-  headingHighlight: "Veride Seffaflik",
+  badge: "OnSuıte Optima",
+  headingLine1: "Üretimde Mükemmellik,",
+  headingHighlight: "Veride Şeffaflık",
   headingLine2: "",
   description: "OEE analitigi ile kullanilabilirlik, performans ve kalite metriklerinizi gercek zamanli takip edin. Verimlilik kayiplarinizi aninda teshis edip optimize edin.",
   ctaButton: "Hemen Baslayin",
   secondaryButton: "Teknik Dokumantasyon",
   heroIcon: "analytics",
   features: [
-    { icon: "speed", title: "Gercek Zamanli OEE", desc: "Kullanilabilirlik, performans ve kalite metriklerinizi anlik olarak hesaplayin ve goruntuleyin." },
+    { icon: "speed", title: "Gerçek Zamanlı OEE", desc: "Kullanılabilirlik, performans ve kalite metriklerinizi anlik olarak hesaplayin ve goruntuleyin." },
     { icon: "troubleshoot", title: "Kayip Analizi", desc: "6 buyuk kayip kategorisini otomatik siniflandirin ve kok neden analizleri yapin." },
     { icon: "trending_up", title: "Trend Analizi", desc: "Gecmis verilerinizle karsilastirmali trend analizleri yapin, iyilestirme firsatlarini kesfedyin." },
     { icon: "dashboard_customize", title: "Kisisel Panolar", desc: "Her rol icin ozellestirilebilir gorunumler olusturun: operator, muhendis, yonetici." },
   ],
-  showcaseHeading: "Gercek Zamanli OEE Tablosu",
+  showcaseHeading: "Gerçek Zamanlı OEE Tablosu",
   showcaseDesc: "Tum hatlarinizin OEE performansini tek bir panoda izleyin. Darbogaz noktalarini aninda tespit edin ve aksiyon alin.",
   showcaseMetrics: [
     { label: "Toplam OEE", value: "82%" },
-    { label: "Kullanilabilirlik", value: "94%" },
+    { label: "Kullanılabilirlik", value: "94%" },
     { label: "Performans", value: "88%" },
     { label: "Kalite", value: "99%" },
   ],
@@ -941,15 +941,15 @@ const OPTIMA_TR: ModulePageContent = {
     { value: "12.682", label: "Gunluk Analiz", desc: "Her gun binlerce olay otomatik siniflandirilir." },
     { value: "142s", label: "Ortalama MTTR", desc: "Ortalama tamir suresi %35 azaldi." },
   ],
-  ctaSectionHeading: "Gelecegin Fabrikasini Bugunden Insa Edin",
-  ctaSectionDesc: "Verimlilik kayiplarinizi gormezden gelmeyi birakin. OnSuite Optima ile her saniyenin degerini olcun.",
+  ctaSectionHeading: "Geleceğin Fabrikasını Bugünden İnşa Edin",
+  ctaSectionDesc: "Verimlilik kayiplarinizi gormezden gelmeyi birakin. OnSuıte Optima ile her saniyenin degerini olcun.",
   ctaSectionButton1: "Ucretsiz Kesif Randevusu",
   ctaSectionButton2: "Tum Ozellikleri Gor",
   optimaHeroTitle: "Canli Hat Performansi",
   optimaOeeValue: "82%",
   optimaOeeLabel: "OEE",
   optimaOeeBreakdown: [
-    { label: "Kullanilabilirlik", value: "94%", color: "bg-green-500" },
+    { label: "Kullanılabilirlik", value: "94%", color: "bg-green-500" },
     { label: "Performans", value: "88%", color: "bg-blue-500" },
     { label: "Kalite", value: "99%", color: "bg-purple-500" },
   ],
@@ -975,7 +975,7 @@ const OPTIMA_TR: ModulePageContent = {
 };
 
 const OPTIMA_EN: ModulePageContent = {
-  badge: "OnSuite Optima",
+  badge: "OnSuıte Optima",
   headingLine1: "Production Excellence,",
   headingHighlight: "Data Transparency",
   headingLine2: "",
@@ -1003,7 +1003,7 @@ const OPTIMA_EN: ModulePageContent = {
     { value: "142s", label: "Average MTTR", desc: "Mean time to repair decreased by 35%." },
   ],
   ctaSectionHeading: "Build Tomorrow's Factory Today",
-  ctaSectionDesc: "Stop ignoring efficiency losses. Measure every second's value with OnSuite Optima.",
+  ctaSectionDesc: "Stop ignoring efficiency losses. Measure every second's value with OnSuıte Optima.",
   ctaSectionButton1: "Free Discovery Meeting",
   ctaSectionButton2: "See All Features",
   optimaHeroTitle: "Live Line Performance",
@@ -1035,24 +1035,24 @@ const OPTIMA_EN: ModulePageContent = {
   optimaAiDesc: "Line-3 speed parameter can be increased by 5%. Estimated efficiency gain: +2.1% OEE improvement.",
 };
 
-const OPTIMA_RO: ModulePageContent = { ...OPTIMA_EN, badge: "OnSuite Optima", ctaButton: "Incepe Acum", secondaryButton: "Documentatie Tehnica", ctaSectionButton1: "Intalnire Gratuita", ctaSectionButton2: "Vezi Caracteristicile" };
+const OPTIMA_RO: ModulePageContent = { ...OPTIMA_EN, badge: "OnSuıte Optima", ctaButton: "Incepe Acum", secondaryButton: "Documentatie Tehnica", ctaSectionButton1: "Intalnire Gratuita", ctaSectionButton2: "Vezi Caracteristicile" };
 
 const TRACE_MOD_TR: ModulePageContent = {
-  badge: "OnSuite Trace",
+  badge: "OnSuıte Trace",
   headingLine1: "Uretim Yolculugunda",
-  headingHighlight: "Tam Seffaflik",
+  headingHighlight: "Tam Şeffaflık",
   headingLine2: "",
   description: "Hammaddeden son urune, seri numarasi ve parti bazli izlenebilirlik ile tum uretim surecini kayit altina alin. Kalite ve uyumluluk standartlarini karsilayin.",
   ctaButton: "Hemen Baslayin",
   secondaryButton: "Teknik Dokumantasyon",
   heroIcon: "location_on",
   features: [
-    { icon: "qr_code_scanner", title: "Seri No Bazli Izleme", desc: "Her birimin uretim yolculugunu dogumdan sevkiyata kadar takip edin." },
+    { icon: "qr_code_scanner", title: "Seri No Bazlı İzleme", desc: "Her birimin uretim yolculugunu dogumdan sevkiyata kadar takip edin." },
     { icon: "account_tree", title: "Parti Bazli Izleme", desc: "Hammadde partilerini son urune kadar izleyin, geri cagirma sureclerini hizlandirin." },
     { icon: "fact_check", title: "Kalite Kontrol Entegrasyonu", desc: "Her istasyondaki kalite olcum sonuclarini otomatik olarak iliskikilendirin." },
     { icon: "history", title: "Dijital Soyagaci", desc: "Urunun tum yasam dongusu boyunca gecirdigi her islemi goruntuleyin." },
   ],
-  showcaseHeading: "Gercek Zamanli Izlenebilirlik Panosu",
+  showcaseHeading: "Gerçek Zamanlı Izlenebilirlik Panosu",
   showcaseDesc: "Her birimin nerede, hangi asamada ve hangi kalite durumunda oldugunu anlik olarak takip edin.",
   showcaseMetrics: [
     { label: "Izlenen Birim", value: "12/12" },
@@ -1065,8 +1065,8 @@ const TRACE_MOD_TR: ModulePageContent = {
     { value: "<2dk", label: "Geri Cagirma", desc: "Parti bazli geri cagirma suresi." },
     { value: "0", label: "Kayip Kayit", desc: "Sifir veri kaybi garantisi." },
   ],
-  ctaSectionHeading: "Izlenebilirligi Bir Standart Haline Getirin",
-  ctaSectionDesc: "Uyumluluk gereksinimlerini karsilayin, musteri guvenini arttirin. OnSuite Trace ile tanisin.",
+  ctaSectionHeading: "İzlenebilirliği Bir Standart Haline Getirin",
+  ctaSectionDesc: "Uyumluluk gereksinimlerini karsilayin, musteri guvenini arttirin. OnSuıte Trace ile tanisin.",
   ctaSectionButton1: "Ucretsiz Demo",
   ctaSectionButton2: "Tum Ozellikleri Gor",
   // Trace extended
@@ -1081,7 +1081,7 @@ const TRACE_MOD_TR: ModulePageContent = {
   traceUnitHeading: "Birim Bazli Veri Katmani",
   traceUnitDesc: "Her uretim biriminin tum operasyonel verilerini tek bir noktadan izleyin.",
   traceUnitMetrics: [
-    { label: "Operasyonel Adim", value: "12/12", icon: "checklist" },
+    { label: "Operasyonel Adım", value: "12/12", icon: "checklist" },
     { label: "Kalite Skoru", value: "98.5", icon: "verified" },
     { label: "Cevrim Suresi", value: "244s", icon: "timer" },
     { label: "Karbon Ayak Izi", value: "0.42kg", icon: "eco" },
@@ -1090,13 +1090,13 @@ const TRACE_MOD_TR: ModulePageContent = {
   traceTableHeaders: ["Istasyon", "Operator", "Zaman Damgasi", "Durum", "Detay"],
   traceTableRows: [
     { station: "CNC-01 Freze", operator: "Ahmet Y.", timestamp: "2025-03-14 09:12:44", status: "Tamamlandi", detail: "T=22.4C, RPM=4800" },
-    { station: "Montaj-03", operator: "Elif K.", timestamp: "2025-03-14 10:45:12", status: "Tamamlandi", detail: "Tork: 12Nm, Basinc: OK" },
+    { station: "Montaj-03", operator: "Elif K.", timestamp: "2025-03-14 10:45:12", status: "Tamamlandi", detail: "Tork: 12Nm, Basınç: OK" },
     { station: "Kalite-02", operator: "Burak S.", timestamp: "2025-03-14 11:32:08", status: "Tamamlandi", detail: "Olcum: 24.98mm (Tol: ±0.02)" },
   ],
 };
 
 const TRACE_MOD_EN: ModulePageContent = {
-  badge: "OnSuite Trace",
+  badge: "OnSuıte Trace",
   headingLine1: "Full Transparency in",
   headingHighlight: "Production Journey",
   headingLine2: "",
@@ -1124,7 +1124,7 @@ const TRACE_MOD_EN: ModulePageContent = {
     { value: "0", label: "Lost Records", desc: "Zero data loss guarantee." },
   ],
   ctaSectionHeading: "Make Traceability a Standard",
-  ctaSectionDesc: "Meet compliance requirements, increase customer trust. Meet OnSuite Trace.",
+  ctaSectionDesc: "Meet compliance requirements, increase customer trust. Meet OnSuıte Trace.",
   ctaSectionButton1: "Free Demo",
   ctaSectionButton2: "See All Features",
   traceHeroKpis: [{ label: "Precision", value: "99.98%" }, { label: "Latency", value: "12ms" }],
@@ -1152,7 +1152,7 @@ const TRACE_MOD_EN: ModulePageContent = {
   ],
 };
 
-const TRACE_MOD_RO: ModulePageContent = { ...TRACE_MOD_EN, badge: "OnSuite Trace", ctaButton: "Incepe Acum", secondaryButton: "Documentatie Tehnica", ctaSectionButton1: "Demo Gratuit", ctaSectionButton2: "Vezi Caracteristicile" };
+const TRACE_MOD_RO: ModulePageContent = { ...TRACE_MOD_EN, badge: "OnSuıte Trace", ctaButton: "Incepe Acum", secondaryButton: "Documentatie Tehnica", ctaSectionButton1: "Demo Gratuit", ctaSectionButton2: "Vezi Caracteristicile" };
 
 const FORMS_TR: ModulePageContent = {
   badge: "OnSuite Forms",
@@ -1191,7 +1191,7 @@ const FORMS_TR: ModulePageContent = {
   formsChecklistId: "Form ID: FRM-2024-0847",
   formsChecklistItems: [
     { label: "Ekipman sicaklik kontrolu yapildi", checked: true },
-    { label: "Basinc degerleri normal aralikta", checked: true },
+    { label: "Basınç degerleri normal aralikta", checked: true },
     { label: "Guvenlik ekipmanlari kontrol edildi", checked: false },
   ],
   formsSignatureLabel: "Operator Imzasi",
@@ -1217,7 +1217,7 @@ const FORMS_TR: ModulePageContent = {
     { label: "Gorsel kalite kontrolu yapildi", checked: false },
   ],
   formsOkButton: "Tamam",
-  formsFieldSectionHeading: "Sahada Kesintisiz|Kullanilabilirlik",
+  formsFieldSectionHeading: "Sahada Kesintisiz|Kullanılabilirlik",
   formsFieldSectionBullets: [
     "Tablet ve mobil cihazlarda tam uyumlu arayuz",
     "Cevrimdisi calisma ve otomatik senkronizasyon",
@@ -1463,7 +1463,7 @@ const INTEGRA_TR: ModulePageContent = {
   integraEcosystemLabel: "Desteklenen Ekosistemler",
   integraTechTags: ["JSON", "Webhooks", "OAuth 2.0"],
   integraSecurityTitle: "Endustriyel Guvenlik",
-  integraRealtimeTitle: "Gercek Zamanli Akis",
+  integraRealtimeTitle: "Gerçek Zamanlı Akis",
   integraFlowTitle: "Cift Yonlu Veri Senkronu",
   integraFlowSectionHeading: "Veri Akis Dongusu",
   integraErpLabel: "ERP",
@@ -1669,7 +1669,7 @@ const TMC_TR: ModulePageContent = {
   heroIcon: "settings_input_component",
   features: [
     { icon: "schema", title: "Standart Veri Yapilari", desc: "Farkli marka ve model makineleri tek bir semantik agac altinda toplayarak veri analizini basitlestirir." },
-    { icon: "speed", title: "Gercek Zamanli Telemetri", desc: "Milisaniyelik hassasiyetle uretim verilerini toplar, gecikmesiz izleme ve anlik mudahale imkani saglar." },
+    { icon: "speed", title: "Gerçek Zamanlı Telemetri", desc: "Milisaniyelik hassasiyetle uretim verilerini toplar, gecikmesiz izleme ve anlik mudahale imkani saglar." },
     { icon: "hub", title: "Uyumlu Entegrasyon", desc: "Mevcut MES ve ERP sistemlerinizle kusursuz haberlesen, tak-calistir mimariye sahip altyapi." },
     { icon: "memory", title: "Edge Computing", desc: "Veriyi kaynaginda isleyerek bant genisligi kullanimini optimize eder ve tepki suresini dusurur." },
   ],
@@ -1954,10 +1954,10 @@ const REFERENCES_TR: ReferencesPageContent = {
         "AeroSystems, havacilik ve uzay sanayii icin kritik bilesenler ureten global bir lider olarak, uretim sureclerindeki veri silolarini ortadan kaldirmak ve tam izlenebilirlik saglamak amaciyla OnSuite ile stratejik bir ortakliga imza atmistir.",
         "Geleneksel raporlama yontemlerinin yerini alan gercek zamanli analitik mimarisi, karmasik montaj hatlarinda karsilasilan darbogazlarin anlik olarak tespit edilmesine olanak tanimistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
-        { name: "OnSuite Optima", icon: "settings_suggest", desc: "Uretim kapasite optimizasyonu ve ileri cizelgeleme algoritmalari ile verimlilik artisi saglar." },
-        { name: "OnSuite Trace", icon: "rebase_edit", desc: "Ham maddeden son urune kadar tum yasam dongusunun dijital ikizini olusturarak tam izlenebilirlik sunar." },
+        { name: "OnSuıte Optima", icon: "settings_suggest", desc: "Uretim kapasite optimizasyonu ve ileri cizelgeleme algoritmalari ile verimlilik artisi saglar." },
+        { name: "OnSuıte Trace", icon: "rebase_edit", desc: "Ham maddeden son urune kadar tum yasam dongusunun dijital ikizini olusturarak tam izlenebilirlik sunar." },
       ],
       techLabel: "Teknoloji ve Altyapi",
       techSteps: [
@@ -1982,9 +1982,9 @@ const REFERENCES_TR: ReferencesPageContent = {
         "TechAuto, otomotiv sektorunde oncu bir uretici olarak, plansiz durus surelerini minimize etmek ve enerji tuketimini optimize etmek amaciyla OnSuite platformunu devreye almistir.",
         "Makine ogrenme tabanli ongorucu bakim algoritmalari sayesinde arizalar gerceklesmeden once tespit edilerek, uretim surekliliginde onemli iyilestirmeler elde edilmistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
-        { name: "OnSuite Live", icon: "stream", desc: "Gercek zamanli makine izleme ve anlık alarm mekanizmalari ile uretim gorunurlugu saglar." },
+        { name: "OnSuıte Live", icon: "stream", desc: "Gercek zamanli makine izleme ve anlık alarm mekanizmalari ile uretim gorunurlugu saglar." },
         { name: "OnSuite Energy", icon: "bolt", desc: "Enerji tuketim analizi ve optimizasyonu ile surdurulebilir uretim hedeflerini destekler." },
       ],
       techLabel: "Teknoloji ve Altyapi",
@@ -1995,7 +1995,7 @@ const REFERENCES_TR: ReferencesPageContent = {
       ],
       resultsLabel: "Sonuclar",
       results: [
-        { value: "-%40", label: "Durus Suresi Azalisi" },
+        { value: "-%40", label: "Duruş Süresi Azalisi" },
         { value: "-%15", label: "Enerji Tasarrufu" },
         { value: "3ay", label: "Yatirim Geri Donus" },
       ],
@@ -2010,15 +2010,15 @@ const REFERENCES_TR: ReferencesPageContent = {
         "GlobalFood, gida guvenligi ve hijyen standartlarini en ust duzeyde tutmak icin OnSuite platformunu uretim ve lojistik sureclerine entegre etmistir.",
         "Soguk zincir takibi ve dijital izlenebilirlik sayesinde urun kalitesinde ve surdurulebilirlik metriklerinde kayda deger iyilesmeler saglanmistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
-        { name: "OnSuite Trace", icon: "location_on", desc: "Hammaddeden son urune tam izlenebilirlik ve parti bazli takip sistemi." },
+        { name: "OnSuıte Trace", icon: "location_on", desc: "Hammaddeden son urune tam izlenebilirlik ve parti bazli takip sistemi." },
         { name: "OnSuite Forms", icon: "description", desc: "Dijital kalite kontrol formlari ve otomatik uyumsuzluk raporlamasi." },
       ],
       techLabel: "Teknoloji ve Altyapi",
       techSteps: [
         { title: "RFID ve Barkod Entegrasyonu", desc: "Urun bazli takip icin her uretim noktasinda otomatik veri yakalama sistemi kuruldu." },
-        { title: "Sicaklik Izleme Agi", desc: "Depo ve nakil araclarinda kesintisiz sicaklik izleme ile soguk zincir butunlugu garanti altina alindi." },
+        { title: "Sıcaklık Izleme Agi", desc: "Depo ve nakil araclarinda kesintisiz sicaklik izleme ile soguk zincir butunlugu garanti altina alindi." },
         { title: "Karbon Ayak Izi Hesaplama", desc: "Uretim ve lojistik sureclerinin cevre etkisi gercek zamanli olarak olculmeye baslandi." },
       ],
       resultsLabel: "Sonuclar",
@@ -2038,9 +2038,9 @@ const REFERENCES_TR: ReferencesPageContent = {
         "PrecisionCraft, hassas metal isleme alaninda AI destekli kalite kontrol sistemleri ile iskarta oranlarini dramatik sekilde dusurmus, urun kalitesini yeni bir seviyeye tasimistir.",
         "Goruntu isleme ve makine ogrenme tabanli otomatik hata tespit sistemi, insan kaynaklarini stratejik gorevlere yonlendirmeye olanak tanimistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
-        { name: "OnSuite Optima", icon: "analytics", desc: "OEE analizi ve darboğaz tespiti ile uretim hattinin surekli optimizasyonu." },
+        { name: "OnSuıte Optima", icon: "analytics", desc: "OEE analizi ve darboğaz tespiti ile uretim hattinin surekli optimizasyonu." },
         { name: "OnSuite CNC", icon: "precision_manufacturing", desc: "CNC tezgahlarindan gercek zamanli veri toplama ve isleme parametreleri izleme." },
       ],
       techLabel: "Teknoloji ve Altyapi",
@@ -2066,7 +2066,7 @@ const REFERENCES_TR: ReferencesPageContent = {
         "BioChem Pharma, batch uretim sureclerinde regulasyona tam uyumlu dijital kayit ve onay sistemi kurarak, kagit bazli surecleri tamamen ortadan kaldirmistir.",
         "21 CFR Part 11 ve FDA gerekliliklerine uygun elektronik imza ve denetim izi altyapisi ile uretim seffafligini en ust duzeye cikarmistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
         { name: "OnSuite Forms", icon: "description", desc: "Dijital batch kayitlari ve elektronik onay is akislari." },
         { name: "OnSuite Core", icon: "shield", desc: "Gelismis kimlik dogrulama, denetim izi ve regulasyon uyumlulugu altyapisi." },
@@ -2094,10 +2094,10 @@ const REFERENCES_TR: ReferencesPageContent = {
         "VoltGrid, yenilenebilir enerji tesislerinde akilli yuk dengeleme ve grid entegrasyonu ile enerji uretim verimliligini onemli olcude artirmistir.",
         "Gercek zamanli enerji izleme ve tahminleme sistemleri sayesinde kapasite kullaniminda kayda deger iyilestirmeler elde edilmistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
         { name: "OnSuite Energy", icon: "bolt", desc: "Enerji tuketim ve uretim analizi, maliyet optimizasyonu." },
-        { name: "OnSuite Connect", icon: "settings_input_component", desc: "Farkli enerji kaynaklari ve inverterlerle kesintisiz protokol haberlesmesi." },
+        { name: "OnSuıte Connect", icon: "settings_input_component", desc: "Farkli enerji kaynaklari ve inverterlerle kesintisiz protokol haberlesmesi." },
       ],
       techLabel: "Teknoloji ve Altyapi",
       techSteps: [
@@ -2122,16 +2122,16 @@ const REFERENCES_TR: ReferencesPageContent = {
         "LogiCenter, depo operasyonlarini otomatize ederek ve multimodal tasima rotalarini optimize ederek operasyonel maliyetlerde onemli dusuler elde etmistir.",
         "Gercek zamanli stok gorunurlugu ve akilli rotalama sistemi sayesinde sevkiyat dogrulugu ve hizi kayda deger sekilde artmistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
-        { name: "OnSuite Trace", icon: "location_on", desc: "Urun ve palet bazinda gercek zamanli konum takibi." },
+        { name: "OnSuıte Trace", icon: "location_on", desc: "Urun ve palet bazinda gercek zamanli konum takibi." },
         { name: "OnSuite Integra", icon: "hub", desc: "ERP ve WMS sistemleri ile kusursuz veri senkronizasyonu." },
       ],
       techLabel: "Teknoloji ve Altyapi",
       techSteps: [
         { title: "AGV Entegrasyonu", desc: "Otonom tasima araclari ile depo ici malzeme hareketleri otomatize edildi." },
         { title: "Akilli Rotalama", desc: "Yapay zeka tabanli rota optimizasyonu ile toplama ve dagitim sureleri minimize edildi." },
-        { title: "Gercek Zamanli Stok Yonetimi", desc: "RFID ve barkod entegrasyonu ile stok dogrulugu %99.9 seviyesine cikarildi." },
+        { title: "Gerçek Zamanlı Stok Yonetimi", desc: "RFID ve barkod entegrasyonu ile stok dogrulugu %99.9 seviyesine cikarildi." },
       ],
       resultsLabel: "Sonuclar",
       results: [
@@ -2150,16 +2150,16 @@ const REFERENCES_TR: ReferencesPageContent = {
         "HeavyConstruct, celik konstruksiyon uretiminde dijital ikiz teknolojisini uygulayarak tasarimdan uretime gecis suresini dramatik sekilde kisaltmistir.",
         "Surec simulasyonu ve gercek zamanli uretim takibi sayesinde hata oranlari minimuma indirilmis, uretim hizinda onemli artislar saglanmistir.",
       ],
-      modulesLabel: "Kullanilan OnSuite Modulleri",
+      modulesLabel: "Kullanilan OnSuite Modülleri",
       modules: [
-        { name: "OnSuite Live", icon: "stream", desc: "Uretim hattinin gercek zamanli izlenmesi ve performans analizi." },
+        { name: "OnSuıte Live", icon: "stream", desc: "Uretim hattinin gercek zamanli izlenmesi ve performans analizi." },
         { name: "OnSuite CNC", icon: "precision_manufacturing", desc: "CNC ve kaynak robotlarindan veri toplama ve parametre optimizasyonu." },
       ],
       techLabel: "Teknoloji ve Altyapi",
       techSteps: [
         { title: "3D Model Entegrasyonu", desc: "CAD modelleri ile uretim verileri eslestirilerek dijital ikiz olusturuldu." },
         { title: "Surec Simulasyonu", desc: "Uretim oncesi sanal ortamda surec simulasyonu ile hatalari onceden tespit." },
-        { title: "Gercek Zamanli Kalite Izleme", desc: "Kaynak kalitesi ve boyutsal dogruluk gercek zamanli olarak izlendi." },
+        { title: "Gerçek Zamanlı Kalite Izleme", desc: "Kaynak kalitesi ve boyutsal dogruluk gercek zamanli olarak izlendi." },
       ],
       resultsLabel: "Sonuclar",
       results: [
@@ -2384,7 +2384,7 @@ const ABOUT_RO: AboutPageContent = {
 
 const TR: SiteContent = {
   pageTitle: "OnSuite - Analitik Mimar | Modern Fabrika Sahasi icin Zeka",
-  navItems: ["Moduller", "Referanslar", "Hakkimizda"],
+  navItems: ["Modüller", "Referanslar", "Hakkımızda"],
   demoButton: "Demo Talep Et",
   floatingCta: { callIcon: "call", callText: "Bizi Arayin", demoIcon: "calendar_month", demoText: "Demo Talep Et" },
   footer: {
@@ -2402,9 +2402,9 @@ const TR: SiteContent = {
     badge: "ANALITIK MIMAR",
     headingLine1: "Modern Fabrika Sahasi icin",
     headingHighlight: "Zeka",
-    searchPlaceholder: "Uretiminizde neyi iyilestirmek istersiniz?",
+    searchPlaceholder: "Üretiminizde neyi iyileştirmek istersiniz?",
     analyzeButton: "Analiz Et",
-    quickActionsLabel: "HIZLI AKSIYONLAR:",
+    quickActionsLabel: "HIZLI AKSİYONLAR:",
     quickActions: ["OEE Optimizasyonu", "Ongorucu Bakim", "Parti Raporlama"],
     gridLabels: ["GRID_UNIT: 24PX", "KOORDINAT: 40.7128 N, 74.0060 W", "SISTEM DURUMU: HAZIR"],
   },
@@ -2415,51 +2415,51 @@ const TR: SiteContent = {
     q4: "Tum bunlari yonetebilecegim bir platform var mi?",
   },
   oee: {
-    queryRef: "Uretim ciktimi nasil takip edebilirim?",
-    badge: "STRATEJIK ONGORU",
+    queryRef: "Üretim çıktımı nasıl takip edebilirim?",
+    badge: "STRATEJİK ÖNGÖRÜ",
     updatedAgo: "2 dk once guncellendi",
     headingNormal: "OEE Optimizasyonu ile",
-    headingHighlight: "%18 Verimlilik Artisi.",
+    headingHighlight: "%18 Verimlilik Artışı.",
     description: "Hat 04 uzerinde gercek zamanli gorunurluk uygulayarak, toplam ciktiyi etkileyen 12 dakikalik bir mikro durus modeli belirledik.",
     feature1: "Gercek zamanli gorunurluk",
     feature2: "Ongorucu Analitik",
     gaugeTitle: "HAT 04 PERFORMANSI",
     gaugeLabel: "TOPLAM OEE",
     gaugeMetrics: [
-      { label: "KULLANILABILIRLIK", value: 94 },
+      { label: "KULLANILABİLİRLİK", value: 94 },
       { label: "PERFORMANS", value: 88 },
-      { label: "KALITE", value: 99 },
+      { label: "KALİTE", value: 99 },
     ],
     kpis: [
-      { label: "Uretim Hedefi", value: "14,202", unit: "adet", change: "+12.4%" },
+      { label: "Üretim Hedefi", value: "14,202", unit: "adet", change: "+12.4%" },
       { label: "Durus Olaylari", value: "3", unit: "bugun", change: "-8%" },
-      { label: "Cevrim Verimliligi", value: "96.8%", unit: "", change: "Optimal" },
+      { label: "Çevrim Verimliliği", value: "96.8%", unit: "", change: "Optimal" },
     ],
   },
   downtime: {
-    title: "Makine Durus Analizi",
-    subtitle: "Uretim kayiplarina derinlemesine bakis - Son 24 Saat Telemetrisi",
-    paretoTitle: "FREKANS VS KUMULATIF ETKI",
-    legendLost: "KAYIP DAKIKA",
+    title: "Makine Duruş Analizi",
+    subtitle: "Üretim kayıplarına derinlemesine bakoş - Son 24 Saat Telemetrisi",
+    paretoTitle: "FREKANS VS KÜMÜLATİF ETKİ",
+    legendLost: "KAYIP DAKİKA",
     legendPareto: "PARETO %",
-    criticalLabel: "KRITIK ARIZA",
-    criticalMachine: "CNC-01 Isleme",
+    criticalLabel: "KRİTİK ARIZA",
+    criticalMachine: "CNC-01 İşleme",
     criticalValue: "142dk",
-    criticalCause: "Hidrolik Sizinti",
-    trendLabel: "TREND ONGORUSU",
-    trendTitle: "Artan Mikro Duruslar",
+    criticalCause: "Hidrolik Sızıntı",
+    trendLabel: "TREND ÖNGÖRÜSÜ",
+    trendTitle: "Artan Mikro Duruşlar",
     trendDesc: "ARM-04 frekansi %12 artti. Acil kalibrasyon onerilir.",
-    liveButton: "Canli Yayini Izle",
-    aiTitle: "Onerilen Sonraki Adim",
+    liveButton: "Canlı Yayını İzle",
+    aiTitle: "Önerilen Sonraki Adım",
     aiDesc: "Bu hidrolik basinc anomali verilerine dayanarak CNC filosu icin kestirimci bir bakim talebi olusturmami ister misiniz?",
-    aiButton1: "Destek Talebi Olustur",
+    aiButton1: "Destek Talebi Oluştur",
     aiButton2: "Ham Telemetriyi Goster",
-    operatorsActive: "2 Operator Aktif",
+    operatorsActive: "2 Operatör Aktif",
   },
   trace: {
     title: "Birim Takip & Izleme - SN: #8821-XP",
     subtitle: "URETIM YOLCULUGU - CANLI SOYAGACI",
-    liveLabel: "CANLI TAKIP",
+    liveLabel: "CANLI TAKİP",
     steps: [
       { label: "Frezeleme", status: "TAMAMLANDI" },
       { label: "Montaj", status: "TAMAMLANDI" },
@@ -2467,9 +2467,9 @@ const TR: SiteContent = {
       { label: "Paketleme", status: "BEKLEMEDE" },
     ],
     cards: [
-      { label: "MEVCUT ISTASYON", value: "Istasyon QA-04" },
-      { label: "ISLEM SURESI", value: "42dk 15sn" },
-      { label: "KALITE DURUMU", value: "GECTI (T-1)" },
+      { label: "MEVCUT İSTASYON", value: "İstasyon QA-04" },
+      { label: "İŞLEM SÜRESİ", value: "42dk 15sn" },
+      { label: "KALİTE DURUMU", value: "GEÇTİ (T-1)" },
     ],
   },
   modules: {
