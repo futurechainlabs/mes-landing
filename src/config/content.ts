@@ -2401,7 +2401,7 @@ const TR: SiteContent = {
   landing: {
     badge: "FABRİKANIZIN ANALİTİK BEYNİ",
     headingLine1: "Üretimde Tam Kontrol, ",
-    headingHighlight: "%18 Verimlilik Artışı.",
+    headingHighlight: "Maksimum Verimlilik",
     searchPlaceholder: "Üretiminizde neyi iyileştirmek istersiniz?",
     analyzeButton: "Analiz Et",
     quickActionsLabel: "HIZLI AKSİYONLAR:",
