@@ -20,9 +20,21 @@ export default function TopNav() {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className="flex items-center justify-between px-6 h-16 w-full max-w-screen-2xl mx-auto">
-          <div className="flex items-center shrink-0">
+          <a
+            href={import.meta.env.BASE_URL}
+            onClick={(e) => {
+              e.preventDefault();
+              if (window.location.hash === "" || window.location.hash === "#") {
+                window.dispatchEvent(new CustomEvent("go-home"));
+              } else {
+                window.location.hash = "";
+              }
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="flex items-center shrink-0 cursor-pointer"
+          >
             <img src={logoUrl} alt="OnSuite" className="h-9 object-contain" />
-          </div>
+          </a>
           <nav className="hidden md:flex items-center gap-6 absolute left-1/2 -translate-x-1/2">
             {content.navItems.map((t, i) => (
               i === 0 ? (

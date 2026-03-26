@@ -45,11 +45,17 @@ const Loading = () => (
 
 function Root() {
   const [state, setState] = useState<RouteState>(getRouteState);
+  const [homeKey, setHomeKey] = useState(0);
 
   useEffect(() => {
     const onHash = () => setState(getRouteState());
+    const onGoHome = () => setHomeKey((k) => k + 1);
     window.addEventListener("hashchange", onHash);
-    return () => window.removeEventListener("hashchange", onHash);
+    window.addEventListener("go-home", onGoHome);
+    return () => {
+      window.removeEventListener("hashchange", onHash);
+      window.removeEventListener("go-home", onGoHome);
+    };
   }, []);
 
   return (
@@ -70,7 +76,7 @@ function Root() {
           : state.route === "contact" ? <ContactFormPage />
           : state.route === "about" ? <AboutPage />
           : state.route === "case" ? <CaseStudyPage index={state.caseIndex} />
-          : <App />}
+          : <App key={homeKey} />}
       </Suspense>
     </ConfigProvider>
   );
